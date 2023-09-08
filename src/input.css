@@ -27,6 +27,15 @@ body {
 .hamburger-active > span:nth-child(3){
     @apply -rotate-45;
 }
+
+.download-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
 /*
 runn command ini sebelum start project
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch

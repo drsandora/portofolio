@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Dr Sandora</title>
     <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+
     <!-- Header Section Start -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
@@ -29,13 +31,13 @@
                                 <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
                             </li>
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
                             </li>
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
                             </li>
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kontak </a>
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kontak </a>
                             </li>
                         </ul>
                     </nav>
@@ -50,14 +52,17 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2"> 
+
                     <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Semua 🖐, Saya 
                         <span class="block font-bold text-dark text-3xl mt-1 lg:text-4xl"> Muhammad Ilhamsyah Pramono</span>
                     </h1>
                     <h2 class="font-medium text-secondary text-lg lg:text-2xl">Web Developer</h2>
                     <p class="font-medium text-slate-400 mb-10">Sharing is Caring</p>
 
-                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80
-                    transition duration-300 ease-in-out">Hubungi Saya</a>
+                    <a href="./dist/pdf/cv.pdf" download="Resume Ilham Pramono" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80
+                    transition duration-300 ease-in-out">Download Resume
+                    <i class="fa fa-download"></i>
+                    </a>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-9 lg:right-0">
@@ -73,23 +78,30 @@
             </div>
         </div>
     </section>
+
     <!-- Main Section End   -->
 
     <!-- About Section Start -->
     <section id="about" class="pt-24 pb-32">
         <div class="container">
             <div class="flex flex-wrap">
+                
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">Yuk Belajar Bersama</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta
-                        Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta!
+                    <!-- <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">Yuk Belajar Bersama</h2> -->
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+                        Saya seorang web developer, middle programmer dengan pengetahuan yang baik
+                        tentang full stack development, saya menyukai struktur dan keteraturan dan saya juga mengutamakan kualitas
+                        , saya suka menghabiskan waktu memperbaiki detail kecil dan mengoptimalkan aplikasi web. Juga
+                        saya suka bekerja dalam tim, karna kita akan belajar lebih cepat dan lebih banyak lagi. Seperti pepatah
+                        dua kepala lebih baik daripada satu.
                     </p>
                 </div>
                 <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl lg:pt-10">Yuk Belajar Bersama</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta
-                        Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta Lorem Ipsusm Lambreta!
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Personality</h4>
+                    <!-- <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl lg:pt-10">Yuk Belajar Bersama</h2> -->
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+                        Seseorang dengan kepribadian yang kuat. Mampu berbaur dengan mudah dengan orang lain dan beradaptasi dengan cepat dalam setiap situasi. Sangat pekerja keras, rajin, dan bersemangat untuk mempelajari sesuatu yang baru. Baik dalam bekerja baik secara individu maupun tim.
                     </p>
                 </div>
                 <div class="flex items-center">
@@ -127,11 +139,56 @@
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4">Project Terlibat</h2>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Professional Project</h2>
                 </div>
             </div>
-            <div class="w-full px-4 flex flex-wrap justify-center ">
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Portofolio/portofolio.png" alt="Landing Page"  width="w-full" >
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page</h3>
+                    <p class="text-base font-medium text-secondary">Membuat Website Single Page Untuk Keperluan Portofolio Data Diri</p>
+                    <p class="text-base font-medium text-slate-900">Skill : HTML, Javascript, Tailwind CSS</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Portofolio/SIMRS.png" alt="SIMRS" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">SIMRS</h3>
+                    <p class="text-base font-medium text-secondary">Membangung Aplikasi Web Sistem Informasi Rumah Sakit</p>
+                    <p class="text-base font-medium text-slate-900">Skill : HTML, CSS, Javascript, PHP Yii 2, PostgreSQL, Docker, Git.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Portofolio/PIAWAI.png" alt="PIAWAI" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">PIAWAI</h3>
+                    <p class="text-base font-medium text-secondary">Membangun Aplikasi Web Portal Informasi Kinerja Pegawai</p>
+                    <p class="text-base font-medium text-slate-900">Skill : HTML, CSS, Vue JS, PHP Laravel, MySql, Git.</p>
+                </div>
+                <!-- <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Portofolio/Sephada.png" alt="Sephada" width="max-w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sephada</h3>
+                    <p class="text-base font-medium text-secondary">Searching Pharmacy Data</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Portofolio/LapKeuangan.png" alt="Laporan Keuangan" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3"> Laporan Keuangan</h3>
+                    <p class="text-base font-medium text-secondary">Membuat Aplikasi Laporan Keuangan Untuk Memenuhi Tugas Kerja Praktek</p>
+                </div> -->
+            </div>
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h2 class="font-bold text-dark text-3xl mb-4">Study Project</h2>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <!-- <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/Portofolio/portofolio.png" alt="Landing Page"  width="w-full" >
                     </div>
@@ -151,13 +208,14 @@
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">PIAWAI</h3>
                     <p class="text-base font-medium text-secondary">Portal Informasi Kinerja Pegawai</p>
-                </div>
+                </div> -->
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/Portofolio/Sephada.png" alt="Sephada" width="max-w-full">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sephada</h3>
-                    <p class="text-base font-medium text-secondary">Searching Pharmacy Data</p>
+                    <p class="text-base font-medium text-secondary">Membangun Aplikasi Web Searching Pharmacy Data Guna Pencarian Data Obat Berdasarkan Lokasi Apotek Terdekat</p>
+                    <p class="text-base font-medium text-slate-900">Skill : HTML, CSS, Javascript, PHP Laravel, MySql</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
@@ -165,6 +223,7 @@
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3"> Laporan Keuangan</h3>
                     <p class="text-base font-medium text-secondary">Membuat Aplikasi Laporan Keuangan Untuk Memenuhi Tugas Kerja Praktek</p>
+                    <p class="text-base font-medium text-slate-900">Skill : HTML, CSS, Javascript, PHP Laravel, MySql</p>
                 </div>
             </div>
         </div>
